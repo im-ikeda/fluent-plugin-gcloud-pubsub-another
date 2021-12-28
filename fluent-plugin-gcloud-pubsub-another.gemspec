@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.license     = "MIT"
   gem.homepage    = "https://github.com/im-ikeda/fluent-plugin-gcloud-pubsub-another"
   gem.summary     = gem.description
-  gem.version     = "1.6.0"
+  gem.version     = "1.6.1"
   gem.authors     = ["Takashi IKEDA"]
   gem.email       = "im.ikeda@gmail.com"
   gem.files       = `git ls-files`.split("\n")

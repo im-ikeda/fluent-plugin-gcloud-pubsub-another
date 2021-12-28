@@ -17,7 +17,7 @@ module Fluent
       def bytesize()
         attr_size = 0
         @attributes.each do |key, val|
-          attr_size += key.bytesize + val.bytesize
+          attr_size += (key.respond_to?("bytesize") ? key.bytesize : key.size) + (val.respond_to?("bitesize") ? val.bytesize : val.size)
         end
         @message.bytesize + attr_size
       end

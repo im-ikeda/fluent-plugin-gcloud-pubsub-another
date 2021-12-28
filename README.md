@@ -25,10 +25,10 @@ Also, when using input plugin, you need to grant Pub/Sub Subscriber and Pub/Sub 
 
 ## Requirements
 
-| fluent-plugin-gcloud-pubsub-custom | fluentd | ruby |
-|------------------------|---------|------|
-| >= 1.0.0 | >= v0.14.0 | >= 2.1 |
-|  < 1.0.0 | >= v0.12.0 | >= 1.9 |
+* ruby
+  * >= 2.1
+* fluentd
+  * >= v0.14.0
 
 ## Installation
 
@@ -189,4 +189,5 @@ Use `gcloud_pubsub` input plugin.
 ## Authors
 
 - [@mdoi](https://github.com/mdoi) : First author
-- [@mia-0032](https://github.com/mia-0032) : This version author
+- [@mia-0032](https://github.com/mia-0032) : Second version author
+- [@im-ikeda](https://github.com/im-ikeda) : This version author
